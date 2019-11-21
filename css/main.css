@@ -1,0 +1,23 @@
+body{
+	background: url(../img/555.png);
+	background-attachment: fixed;
+	}
+.element{
+	background: url(../img/666.jpg);
+	width: 200px;
+	height: 200px;
+	border: 1px solid gray;
+	margin: 10px;
+	}
+.repeat-x{
+	background-repeat: repeat-x;
+}
+.repeat-y{
+	background-repeat: repeat-y;
+}
+.no-repeat{
+	background-repeat: no-repeat; 
+}
+.cover{
+	background-size: cover;
+}
