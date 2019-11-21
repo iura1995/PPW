@@ -1,45 +1,23 @@
-body{
-	font-size: 0;
-} 
-header, nav, section, footer{
-	font-size: 14px; 
+*{
+	border-radius: 50px;
+	height: 200px;
 }
-header{
-	background: lightblue;
-	height: 100px; 
+div{
+	background: red;
+	height: 100px;
+	width: 300px;
+	border: 1px solid blue;
+	margin-top: 5px;
+	border-radius: 8px;
 }
-nav, section{
-	display: inline-block; 
-	vertical-align: top;
-}
-nav{
-	background: violet; 
-	width: 20%;
-} 
-nav.menu{
-	width: 100%;
-	background: red; 
-	font-size: 0;
-}
-nav.menu a{
-	font-size: 14px; 
-	width: 25%;
-	display: inline-block;
-	outline: 1px solid blue;
-	text-align: center; 
-	color: white;
-	text-decoration: none;
-}
-section {
-	background: gray;
-	padding: 5%; 
-	width: 70%;
-} 
-article{
-	background: blue; 
-	margin-top: 20px; 
-}
-footer {
+.student{
 	background: pink;
-		height: 100px;
-} 
+	border-radius: 0; 
+}
+#student-deosebit{
+	background: violet;
+	border-radius: 100px;
+}
+p{
+	background: gray; 
+}
