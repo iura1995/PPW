@@ -135,12 +135,18 @@ section#news article p{
 	border-radius: 5px;
 }
 
+
 #photos ul{
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	list-style: none;
 }
-
+#contact img{
+	width: 150px;
+	height: 200px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
 #video ul{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
