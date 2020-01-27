@@ -1,0 +1,51 @@
+body{
+	background: yellow;
+}
+header {
+	font-size: 36px;
+	color: red;
+	text-align: center;
+}
+section {
+	color: red;
+}
+}
+nav{
+	background-color: pink;
+	
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+	height: 50px;
+}
+nav.u a{
+	border:blue;
+	text-align: right;
+	text-decoration: none;
+}
+nav a:hover {
+	border-radius: 10px;
+	color: blue;
+	border: 20px;
+}
+table
+{
+	width: 50%
+}
+table 
+{
+	text-align: center;
+}
+img
+{
+	height: 200px;
+}
+div
+{
+	border-color: red
+	border-radius: 2px;
+	width: 120px;
+	border-width: 5px;
+	text-align: right;
+	font-weight: bold;
+	border-style: dashed;
+}

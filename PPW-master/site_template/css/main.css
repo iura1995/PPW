@@ -1,0 +1,93 @@
+body{
+	font-size: 0;
+	background: url(../img/cer_senin.jpg);
+	background-attachment: fixed;
+	margin: 0;
+}
+
+header, nav, section, footer{
+	font-size: 14px;
+}
+
+header{
+	background: white;
+	height: 100px;
+	font-size: 56px;
+	text-align: center;
+	color: red;
+	padding-top: 30px;
+}
+
+aside, section{
+	display: inline-block;
+	vertical-align: top;
+}
+
+aside{
+	width: 20%;
+}
+
+
+aside nav.vertical a{
+	display: block;
+	background: green;
+	width: 100%;
+	margin-top: 3px;
+}
+
+nav{
+	background: violet;
+	width: 20%;
+}
+
+nav.menu{
+	width: 100%;
+	background: none;
+	font-size: 0;
+}
+
+nav.menu a{
+	font-size: 26px;
+	height: 30px;
+	width: 25%;
+	display: inline-block;
+	border-radius: 0px;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	background: pink;
+}
+
+nav.menu a:hover{
+	background: green;
+	color: yellow;
+}
+
+section {
+	margin-left: 1%;
+	background: gray;
+	padding: 5%;
+	width: 69%;
+	border-radius: 10px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+article{
+	background: blue;
+	margin-top: 20px;
+}
+
+footer {
+	background: yellow;
+		height: 100px;
+}
+
+.rounded{
+	border-radius: 
+}
+
+section#home{
+	font-size: 16px;
+	background: rgba(255, 255, 255, 0.9);
+}
